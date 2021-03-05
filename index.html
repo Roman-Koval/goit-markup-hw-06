@@ -389,14 +389,85 @@
                     </li>
                     </ul>
             </div>
+
+            <div class="join">
+              <h3 class="join-item">Подпишитесь на рассылку</h3> 
+              <form class="join-form" autocomplete="off">
+                <div class="join-group">
+                  <label for="join-email" class="label"></label>
+                  <div class="input-wrapper">
+                    <input class="join-input" type="email" name="email" id="join-email" placeholder="E-mail"/>
+                  </div>
+                </div>
+                
+                <button class="join-button" type="submit"><span class="join-button-title">Подписаться</span>
+                  <svg width="24" height="24" class="join-icon">
+                    <use href="images/icons.svg#icon-icon-send"></use>
+                  </svg>
+                </button>
+                
+              </form>
+            </div>
         </div>
     </footer>
+
     <div data-modal class="modal-sign is-hidden">
       <div class="modal">
         <button data-modal-close class="modal-btn"><svg class="icon-close">
           <use href="./images/icons.svg#icon-close-black"></use>
         </svg></button>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsum dolorem exercitationem quidem! Nemo repudiandae sed obcaecati ducimus suscipit deleniti? Architecto officia aliquam, neque ipsa possimus, iusto cupiditate facilis eos natus ducimus voluptates? Nemo ab voluptatem et, aspernatur ducimus laudantium, obcaecati iste natus necessitatibus veniam placeat. Est nobis accusantium asperiores autem veritatis dolore pariatur sed officia molestiae odio labore doloribus, ducimus quisquam omnis alias numquam iste iure repudiandae! Autem dolore, similique dolorem facilis eius esse recusandae, cumque sunt qui delectus officiis atque possimus itaque doloremque expedita aperiam voluptas voluptatibus ut nulla accusantium tempore exercitationem unde. Adipisci temporibus officiis ullam maiores quasi tenetur obcaecati blanditiis, autem aspernatur aut ut explicabo? Animi porro, voluptates quo laboriosam veniam impedit pariatur culpa architecto dolorum debitis, voluptas, officia reiciendis. In repellat qui deserunt debitis rem, id vitae minima odio. Quaerat facere sed quam officiis! Hic placeat voluptatem voluptates assumenda eaque qui ipsum modi amet quod praesentium? Expedita vel saepe ad dignissimos, nobis odio. Amet et impedit aliquam incidunt odio vitae nostrum eos voluptates! Eveniet facere recusandae, voluptatum consequatur mollitia totam! Impedit distinctio velit quis aut omnis nostrum, corrupti aperiam qui. Officiis adipisci quas velit et nisi ex qui facere aut dolorem facilis! Accusamus, quas cum?
+
+        <form class="signup-form" autocomplete="off">
+          <span class="title-form">Оставьте свои данные, мы вам перезвоним</span>
+          <div class="group">
+            <label for="name" class="label">Имя</label>
+            <div class="input-wrapper">
+              <input class="input" type="name" name="name" id="name" />
+              <svg width="18" height="18" class="icon">
+                <use href="images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+            
+          <div class="group">
+              <label for="tel" class="label">Телефон</label>
+              <div class="input-wrapper">
+                <input class="input" type="tel" name="tel" id="tel" />
+                <svg width="18" height="18" class="icon">
+                  <use href="images/icons.svg#icon-phone"></use>
+                </svg>
+              </div>
+          </div>
+
+
+          <div class="group">
+            <label for="email" class="label">Почта</label>
+            <div class="input-wrapper">
+              <input class="input" type="email" name="email" id="email"/>
+              <svg width="18" height="18" class="icon">
+                <use href="images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+    
+          <div class="group">
+            <label for="feed" class="label">
+              Комментарий
+              <textarea class="feedback" name="feedback" rows="5" placeholder="Введите текст"></textarea>
+            </label>
+          </div>
+
+          <div class="group">
+            <div class="input-wrapper">
+              <input type="checkbox" name="agreement" value="agreement">
+              <span class="agreement">Соглашаюсь с рассылкой и принимаю <a class="agreement-link" href="#">Условия договора</a></span>
+            </div>
+          </div>
+          
+    
+          <button class="submit" type="submit">Отправить</button>
+        </form>
+
       </div>
     </div>
     <script src="./modal.js"></script>
