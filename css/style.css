@@ -715,21 +715,17 @@ color: #FFFFFF;
 /* .working li:nth-child(3n + 2) {
     margin-left: 30px;   
 }
-
 .working li:nth-child(3n + 2) {
     margin-right: 30px; 
 }
-
 .working li:nth-child(4) {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
 .working li:nth-child(5) {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
 .working li:nth-child(6) {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -1025,58 +1021,29 @@ footer {
     color: rgba(117, 117, 117, 0.5);
 }
 
-/* .join-button {
-    display: flex;	
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
-    
-    padding: 13px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    color: var(--white-text);
-    border-radius: 4px;
-    
-    border-width: 0;
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-} */
-
-/* .join-button-title {
-    margin-right: 10px;
-}
-
-.join-icon {
-    margin-top: 13px;
-    padding-bottom: 13px;
-    padding-right: 28px;
-}
 
 .join {
-    display: flex;
-    vertical-align: top;
     display: inline-block;
-    padding-top: 12px;
     margin-left: 93px;
+    align-items: center;
+    position: relative;
+    transform: translate(0, -40%);
     
 }
 
 .join-item {
-    
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
-} */
+}
 
-/*  */
-
-.join-group {
+.join-form {
     display: flex;
+    
+    
 }
 
 .join-input {
@@ -1088,17 +1055,8 @@ footer {
     outline: none;
 }
 
-.join-item {
-    font-size: 14px;
-    line-height: 1.142;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin-bottom: 20px;
-}
 
 .join-input::placeholder {
-    
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -1110,12 +1068,7 @@ footer {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.join {
-    display: inline-block;
-    padding-top: 12px;
-    margin-left: 93px;
-    
-}
+
 
 .input-wrapper .join-input {
     width: 358px;
@@ -1128,8 +1081,9 @@ footer {
 
 
 .join-button {	
+    display: flex;
     position: relative;
-    
+    margin-left: 12px;
     padding: 10px 28px;
     font-style: normal;
     font-weight: bold;
@@ -1143,4 +1097,10 @@ footer {
 
 .join-button-title {
     margin-right: 10px;
+    margin-top: 5px;
+}
+
+.join-icon {
+    padding: 0;
+    margin-top: 5px;
 }
