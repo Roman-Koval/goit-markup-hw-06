@@ -860,6 +860,7 @@ footer {
     padding: 0;
     width: 30px;
     height: 30px;
+    cursor: pointer;
     
 }
 
@@ -906,7 +907,7 @@ footer {
     color: #757575;
   }
 
-  .title-form {
+.title-form {
     display: flex;
     font-family: Roboto;
     font-style: normal;
@@ -928,6 +929,7 @@ footer {
     top: 50%;
     left: 12px;
     transform: translateY(-50%);
+    cursor: pointer;
 }
 
 .signup-form .icon:focus,
@@ -942,6 +944,7 @@ footer {
 
 .input:focus ~ .icon {
     fill:#2196F3;
+    
 }
 
 
@@ -955,14 +958,67 @@ footer {
     line-height: 1.167;
     letter-spacing: 0.01em;
     color: #757575;
-    padding-top: 40px;
+    /* padding-top: 40px; */
 }
 
 
 .signup-form .feedback:focus {
     outline: none;
     border: 1px solid #2196f3;
+    
 }
+
+/* .icon-check {
+    border: 2px solid #212121;
+    border-radius: 2px;
+    cursor: pointer;
+    
+    
+}
+
+.icon-check:checked  {
+    border: none;
+    
+}
+/* input[type="checkbox"] + label {
+    
+    border: none;
+    display: block;
+} */
+
+/* .checkbox-input {
+    position: absolute;
+    -webkit-appearance: none; 
+    
+} */ 
+
+.check-input {
+    position: absolute;
+    -webkit-appearance: none;
+    
+}
+
+.check-box {
+    position: absolute;
+    
+    margin-top: 3px;
+    width: 16px;
+    height: 15px;
+    background-image: url(/images/check-off.svg);
+    cursor: pointer;
+}
+
+.agreement{
+    margin-left: 23px;
+}
+
+.check-input:checked + .check-box {
+    background-image: url(/images/check-on.svg);
+}
+
+/* .check {
+    padding-left: 24px;
+} */
 
 
 
@@ -980,6 +1036,7 @@ footer {
     padding: 10px 55px;
     border-width: 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
 .input-wrapper .agreement {
@@ -989,6 +1046,7 @@ footer {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #757575;
+ 
 }
 
 .agreement-link {
@@ -1025,8 +1083,6 @@ footer {
 .join {
     display: inline-block;
     margin-left: 93px;
-    align-items: center;
-    position: relative;
     transform: translate(0, -40%);
     
 }
@@ -1061,7 +1117,7 @@ footer {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -1076,7 +1132,16 @@ footer {
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.25;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #fff
 }
+
 
 
 
@@ -1093,11 +1158,12 @@ footer {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .join-button-title {
     margin-right: 10px;
-    margin-top: 5px;
+    margin-top: 7px;
 }
 
 .join-icon {
