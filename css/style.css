@@ -968,6 +968,34 @@ footer {
     
 }
 
+.check-input {
+    -webkit-appearance: none;
+    position: absolute;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    
+}
+
+.check-icon {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    border: 2px solid #212121;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.check:checked + .check-icon {
+    border-color: transparent;
+    background-color: #2196F3;
+    background-image: url(./images/check-on.svg);
+    background-size: contain;
+    background-origin: border-box;
+}
+
 /* .icon-check {
     border: 2px solid #212121;
     border-radius: 2px;
@@ -992,13 +1020,13 @@ footer {
     
 } */ 
 
-.check-input {
+/* .check-input {
     position: absolute;
     -webkit-appearance: none;
     
-}
+} */
 
-.check-box {
+/* .check-box {
     position: absolute;
     
     margin-top: 3px;
@@ -1006,15 +1034,22 @@ footer {
     height: 15px;
     background-image: url(/images/check-off.svg);
     cursor: pointer;
+} */
+
+/* .icon-check {
+    cursor: pointer;
 }
 
+.check-input:checked + .check-icon {
+    background-color: green;
+}
 .agreement{
     margin-left: 23px;
-}
+} */
 
-.check-input:checked + .check-box {
+/* .check-input:checked + .check-box {
     background-image: url(/images/check-on.svg);
-}
+} */
 
 /* .check {
     padding-left: 24px;
