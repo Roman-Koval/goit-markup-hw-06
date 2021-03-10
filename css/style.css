@@ -54,7 +54,7 @@ body {
     background: #ffffff;
     border-bottom: 1px;
     border-color: var(--blue-text);
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .header .container {
@@ -805,7 +805,7 @@ footer {
     height: 100%;
     background: rgba(0, 0, 0, 0.2);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-    z-index: 2;
+    /* z-index: 2; */
     
 }
 
@@ -858,8 +858,8 @@ footer {
     fill: black;
     margin: 0;
     padding: 0;
-    width: 30px;
-    height: 30px;
+    width: 18px;
+    height: 18px;
     cursor: pointer;
     
 }
@@ -968,7 +968,57 @@ footer {
     
 }
 
-.check-input {
+.checkbox-input {
+    -webkit-appearance: none;
+    position: absolute;
+  }
+  
+  
+.checkbox-span {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    margin-right: 7px;
+    border: 1.5px solid #212121;
+    border-radius: 2px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.checkbox-input:checked + .checkbox-span {
+    border-color: transparent;
+    background-color: #2196f3;
+    background-image: url(../images/check-on.svg);
+    background-size: contain;
+    background-origin: border-box;
+}
+
+.checkbox-label {
+      display: flex;
+      align-items: center;
+      
+}
+
+/* .check-input {
+    -webkit-appearance: none;
+    position: absolute;
+  }
+  
+  .check {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
+  .check:checked + .check-icon {
+    border-color: transparent;
+    background-color: #2196f3;
+    background-image: url(./images/check-on.svg);
+    background-size: contain;
+    background-origin: border-box;
+  } */
+/* .checkbox-input {
     -webkit-appearance: none;
     position: absolute;
 }
@@ -979,7 +1029,7 @@ footer {
     
 }
 
-.check-icon {
+.checkbox-icon {
     display: inline-block;
     width: 16px;
     height: 15px;
@@ -988,13 +1038,13 @@ footer {
     cursor: pointer;
 }
 
-.check:checked + .check-icon {
+.checkbox-input:checked + .checkbox-icon {
     border-color: transparent;
     background-color: #2196F3;
-    background-image: url(./images/check-on.svg);
+    background-image: url(/images/check-on.svg);
     background-size: contain;
     background-origin: border-box;
-}
+} */
 
 /* .icon-check {
     border: 2px solid #212121;
