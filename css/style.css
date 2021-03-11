@@ -246,11 +246,11 @@ button:active, button:focus {
     width: 100%;
     background-color: #f5f4fa;
     border-radius: 4px;
-    /* margin-bottom: 30px; */
+    margin-bottom: 30px;
 }
 
 .advantage-container {
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 
 .advantages {
